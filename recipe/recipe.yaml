@@ -1,5 +1,5 @@
 context:
-  version: "0.8.1"
+  version: "0.8.2"
 
 package:
   name: turso
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/tursodatabase/turso/archive/v${{ version }}.tar.gz
-  sha256: b5fd172a9defb55e78dec9c574dcb79b0d988a5bfdfb59b64a591890f3f29a5c
+  sha256: 4e090970e8f71790e9499ee76e6ef4019366ba7ff9e9271534e74059e9bc175b
 
 build:
-  number: 1
+  number: 0
   script:
     env:
       CARGO_PROFILE_RELEASE_STRIP: symbols
