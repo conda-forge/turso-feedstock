@@ -1,5 +1,5 @@
 context:
-  version: "0.8.2"
+  version: "0.8.3"
 
 package:
   name: turso
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/tursodatabase/turso/archive/v${{ version }}.tar.gz
-  sha256: 4e090970e8f71790e9499ee76e6ef4019366ba7ff9e9271534e74059e9bc175b
+  sha256: 18912d5142b3d4abe29aeeb771ccbbdb4c819105627833d2232d746013d9cd0a
 
 build:
   number: 0
