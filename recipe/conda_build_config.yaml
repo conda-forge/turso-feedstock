@@ -1,0 +1,3 @@
+# https://github.com/tursodatabase/turso/blob/main/rust-toolchain.toml
+rust_compiler_version:
+  - "1.88"
